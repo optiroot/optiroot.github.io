@@ -38,7 +38,12 @@
           </div>
         {% endunless %}
 
+
+        {% include highlight.html %}
+
+        {% comment %}
         {% include projects.html %}
+        {% endcomment %}
 
         {% if site.topics %}
           {% include interests.html %}
